@@ -3,6 +3,15 @@ In this project I use various neural network architectures to predict the langua
 
 # Dependencies
 
+A few python packages are needed for this project. Here is the full list and how to install them:
+- numpy: pip install 
+- keras: 
+- Wikipedia: 
+- matplotlib:
+
+To only run the prediction, only keras and numpy are necessary.
+
+
 # Files rundown
 
 The saved data is not included because the files are too big.
