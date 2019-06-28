@@ -1,4 +1,4 @@
-# language-identifier
+# Language-identifier
 
 In this project I use various neural network architectures to predict the language that a word is written in. I scrape the web using the Wikipedia package to find words in French, English and Spanish. I then use this data to train a fully connected neural network, a recurrent neural network and two types of convolutional neural networks, with 1D convolutions. I then compare the results to see which is best and use it to make predictions.
 
