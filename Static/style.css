@@ -1,0 +1,40 @@
+input[type=text] {
+  border: 2px solid red;
+  border-radius: 4px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 2px 2px;
+  cursor: pointer;
+}
+
+body {
+  background-color: black;
+}
+
+div.container {
+  background-color: white;
+  margin-top: 100px;
+  margin-left: 100px;
+  height: 50%;
+  width: 50%;
+  padding: 25px;
+}
+
+div.radio {
+  background-color: lightblue;
+}
+
+h1.word {
+  background-color: yellow;
+}
+
+h1.result {
+  text-align: center;
+  text-color: red;
+}
