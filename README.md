@@ -9,6 +9,7 @@ A few python packages are needed for this project. Here is the full list.
 - keras
 - Wikipedia
 - matplotlib
+- flask
 
 To just run the prediction, only keras is necessary.
 
@@ -20,6 +21,9 @@ Here is the list of files included and what they contain:
 - training: copy of the notebook used on Google Colab to train the networks
 - analysis: using the trained networks to see which one is the best and compare their results
 - predict: make predictions using the models by taking input from the command line
+- app_v1 / app_v1_1: web app to use the model
+- app_v2: API to access using URLs
+- templates / static: html and css files for the web apps
 
 I also include most of the content that I used:
 - model_xxx: saved keras models (best of all epochs for each model)
@@ -35,6 +39,14 @@ If someone wants only to use the files to predict words, simply type the followi
 python predict.py word -m model
 
 where word is the word that you want to classify and model is either FF, RNN, CNN or CNNsep.
+
+# To use API
+
+To use the API implemented using flask, just run one of the three files using the command
+
+python app_v??.py
+
+For versions 1 nd 1.1 just go to the link that appears using a web browser and navigate the site. For version 2 you can use a library like requests in python to access the API's data. The necessary inputs are the word to clasify and the model to use. For more detail see the blog post that I wrote: https://medium.com/@yan.gobeil/deploying-a-keras-model-as-an-api-using-flask-177583300073.
 
 # To train new model
 
